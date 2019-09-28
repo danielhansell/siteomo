@@ -12,14 +12,14 @@ img{max-width: 100%;}
 
 /*============== BG COLORS ==============*/
 .bg-gradient{background: linear-gradient(to right, #39ff14, #fff);}
-.bg-black{background: url(img-busca.jpg); width: 100%; height:70%;}
+.bg-black{background: url(/img-busca.jpg); width: 100%; height:70%;}
 .bg-white{background-color: #fff;}
 
 /*============== HELPERS ==============*/
 .radius{border-radius:7px;}
 
 /* CABEÇALHO */
-.logo{width: 56px; height: 56px; float: left; background: url(logo.png) center center/56px no-repeat;
+.logo{width: 56px; height: 56px; float: left; background: url(/logo.png) center center/56px no-repeat;
 font-size: 0;}
 .btn-menu{width: 56px; height: 56px; float: right; text-align: center; color: #fff; 
 border-radius: 56px; cursor: pointer;}
@@ -34,7 +34,7 @@ top: 0; left: 0;}
 .menu li a::hover{border: 1px solid #fff}
 
 /* BANNER */
-.banner{background: url(omo.jpg); height: 468px; width: 100%; margin-bottom: -10px;}
+.banner{background: url(/omo.jpg); height: 468px; width: 100%; margin-bottom: -10px;}
 
 .buttons{width: 100%; margin-top: 2%;}
 .buttons i {float: right;}
@@ -46,7 +46,7 @@ top: 0; left: 0;}
 .title {width: 100%;}
 .title h2{font-size: 2.5em; color: #fff; font-weight: 700;}
 .title h4{font-size: 1.5em; color: #fff;}
-.informar{background: url(garota.jpg); height: 100%; width: 100%;}
+.informar{background: url(/garota.jpg); height: 100%; width: 100%;}
 
 
 /* NEWSLETTER */
@@ -58,7 +58,7 @@ top: 0; left: 0;}
 
 
 /* RODAPÉ */
-.rodape{background: url(unilever-logo.png);  width: 108px; height:119px; margin-top: 100px; margin-left: 150px; margin-bottom: 50px;}
+.rodape{background: url(/unilever-logo.png);  width: 108px; height:119px; margin-top: 100px; margin-left: 150px; margin-bottom: 50px;}
 .social-icons a{font-size: 1.5em; color:#4bcefa; margin-right: 1%; margin-top:200px;}
 .social-icons a:last-child{margin-right: 15%;}
 .social-icons a::hover{color: #4bcefa; margin-top:80%;}
@@ -69,7 +69,7 @@ top: 0; left: 0;}
 /*============== MOBILE FIRST ==============*/
 /* SMALL DEVICES - SMARTPHONES */
 @media screen and (min-width: 480px){
-.logo{width: 56px; height: 56px;background: url(logo.png) center center/56px no-repeat; }
+.logo{width: 56px; height: 56px;background: url(/logo.png) center center/56px no-repeat; }
 .btn{font-size: 2em;}
 }
 
