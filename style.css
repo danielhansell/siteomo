@@ -12,14 +12,14 @@ img{max-width: 100%;}
 
 /*============== BG COLORS ==============*/
 .bg-gradient{background: linear-gradient(to right, #39ff14, #fff);}
-.bg-black{ width: 100%; height:70%;}
+.bg-black{width: 100%; height:70%;}
 .bg-white{background-color: #fff;}
 
 /*============== HELPERS ==============*/
 .radius{border-radius:7px;}
 
 /* CABEÇALHO */
-.logo{width: 56px; height: 56px; float: left; background: url(../logo.png) center center/56px no-repeat;
+.logo{width: 56px; height: 56px; float: left; background: url("logo.png") center center/56px no-repeat;
 font-size: 0;}
 .btn-menu{width: 56px; height: 56px; float: right; text-align: center; color: #fff; 
 border-radius: 56px; cursor: pointer;}
@@ -34,7 +34,7 @@ top: 0; left: 0;}
 .menu li a::hover{border: 1px solid #fff}
 
 /* BANNER */
-.banner{background: url(../omo.jpg); height: 468px; width: 100%; margin-bottom: -10px;}
+.banner{background-image: url("omo.jpg"); height: 459px; width: 50%;}
 
 .buttons{width: 100%; margin-top: 2%;}
 .buttons i {float: right;}
@@ -44,12 +44,13 @@ top: 0; left: 0;}
 
 /* SERVIÇOS */
 .title {width: 100%;}
-.title h2{font-size: 2.5em; color: #fff; font-weight: 700;}
-.title h4{font-size: 1.5em; color: #fff;}
-.informar{background: url(../garota.jpg); height: 100%; width: 100%;}
+.title h2{font-size: 2.5em; color: #fff; font-weight: 700; padding-right: 5%;}
+.title h4{font-size: 1.5em; color: #fff; padding-right: 5%;}
+.informar{background-image: url("garota.jpg"); height: 100%; width: 100%;}
 
 
 /* NEWSLETTER */
+.newsletter {background-image: url("img-busca.jpg"); width: 100%;}
 .newsletter h2{font-size: 1.5em; color: #4bcefa; font-weight: 700; text-align: center; margin-top: 70px; }
 .newsletter h3{color: #4bcefa;text-align: center;}
 .newsletter form{margin-top: 2%;}
@@ -58,38 +59,50 @@ top: 0; left: 0;}
 
 
 /* RODAPÉ */
-.rodape{background: url(../unilever-logo.png);  width: 108px; height:119px; margin-top: 100px; margin-left: 150px; margin-bottom: 50px;}
-.social-icons a{font-size: 1.5em; color:#4bcefa; margin-right: 1%; margin-top:200px;}
+.rodape{background: url("unilever-logo.png");  float: left; width: 108px; height:119px; margin-top: 10%; margin-left: 15%; margin-bottom: 50px;}
+.social-icons a{font-size: 1.5em; color:#4bcefa; margin-right: 1%; margin-top:15%; float: center;}
 .social-icons a:last-child{margin-right: 15%;}
-.social-icons a::hover{color: #4bcefa; margin-top:80%;}
-.copyright{color: black; margin-top: 15%; margin-left: 35%;}
+.social-icons a::hover{color: #4bcefa;}
+.copyright{color: black; margin-top: 15%; margin-left: 35%; float: center}
 
 
 
 /*============== MOBILE FIRST ==============*/
 /* SMALL DEVICES - SMARTPHONES */
 @media screen and (min-width: 480px){
-.logo{width: 56px; height: 56px;background: url(../logo.png) center center/56px no-repeat; }
+.logo{width: 56px; height: 56px;background: url("logo.png") center center/56px no-repeat; }
 .btn{font-size: 2em;}
+.banner{width: 100%;}
+.informar{width: 100%;}
+.newsletter{width: 100%;}
+table{width: 100%;}
 }
 
 /*SMALL DEVICES - TABLETS*/
 @media screen and (min-width: 768px){
+.newsletter{}
 .newsletter h2{font-size: 2em;}
 .newsletter h3{font-size: 1.5em;}
 .newsletter input{width: 70%; padding: 2%; float: left; margin-right: 1%;}
 .newsletter button{width: 29%; padding: 2%; float: left; margin-top: 0;}
-
+.banner{width: 100%;}
+.informar{width: 100%;}
+.newsletter{width: 100%;}
+table{width: 80%;}
 }
 
 /*MEDIUM DEVICES - TABLES & DESKTOPS*/
 @media screen and (min-width: 960px){
-.title {width: 70%; float: left; text-align: left;}
+.title {width: 100%; float: left; text-align: left;}
 .title h2{font-size: 3em;}
 .title h3{font-size: 2em;}
 .buttons{width: 30%; float: right; margin-top: 0;}
 .newsletter input{width: 60%; float: none;}
 .newsletter button{width: 20%; float: none;}
+.banner{width: 100%;}
+.informar{width: 100%;}
+.newsletter{width: 100%;}
+table{width: 60%;}
 }
 
 /*LARGE DEVICES - WIDE SCREENS*/
@@ -101,7 +114,10 @@ display: block !important; position: static;}
 .menu li{padding: 0; float: left;}
 .menu li a{color: #130400; font-size: 1em; padding: 15px;}
 .menu li a::hover{border: none; color: #da6709;}
-
+.banner{width: 100%;}
+.informar{width: 100%;}
+.newsletter{width: 100%;}
+table{width: 50%;}
 }
 
 
